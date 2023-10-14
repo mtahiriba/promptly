@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 let isconnected = false;
 
 export const connectToDB = async () => {
-  mongoose.set("strictquery", true);
+  mongoose.set("strictQuery", true);
 
   if (isconnected) {
     console.log("MongoDB is already connected");
