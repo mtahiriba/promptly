@@ -19,6 +19,7 @@ const UserSchema = new Schema({
   },
 });
 
+// check if models have user then export it, otherwise create a new model
 const User = models.User || model("User", UserSchema);
 
 export default User;
