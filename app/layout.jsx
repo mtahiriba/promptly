@@ -1,5 +1,8 @@
 import "@styles/globals.css";
 
+import Nav from "@components/Nav";
+import Provider from "@components/Provider";
+
 export const metadata = {
     title: "Promptly",
     description: "Discover & Share AI Prompts",
@@ -14,7 +17,7 @@ export const metadata = {
           </div>
   
           <main className='app'>
-            {/* <Nav /> */}
+            <Nav />
             {children}
           </main>
         {/* </Provider> */}
